@@ -53,31 +53,48 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
+  background-size: cover; */
+  /* background-image: url("https://images.britcdn.com/wp-content/uploads/2015/04/Cookie_Cake_009.jpg?w=1000&auto=format");
+  background-repeat: no-repeat; */
+  background: url("http://getwallpapers.com/wallpaper/full/5/8/2/1090845-wallpaper-happy-birthday-cake-2560x1630-for-ipad-pro.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  filter: opacity(60%);
+  
 }
 
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
+  
 }
 
 header.masthead .masthead-content .masthead-heading {
-  font-size: 4rem;
+  font-size: 7rem !important;
+  filter: opacity(100%) !important;
+  color: greenyellow;
+    text-shadow: 6px 0 deepskyblue, 0 0px deepskyblue, 1px 0 deepskyblue, 0 -1px deepskyblue;
 }
 
 header.masthead .masthead-content .masthead-subheading {
   font-size: 2rem;
+  filter: opacity(100%) !important;
+  color: greenyellow;
+    text-shadow: 6px 0 deepskyblue, 0 0px deepskyblue, 1px 0 deepskyblue, 0 -1px deepskyblue;
 }
 
 header.masthead .bg-circle {
   z-index: 0;
   position: absolute;
   border-radius: 100%;
-  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+  /* background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%); */
+  /* background-image: url("https://www.landolakes.com/RecipeManagementSystem/media/Recipe-Media-Files/Recipes/Retail/x17/16714-birthday-cake-760x580.jpg?ext=.jpg"); */
 }
 
 header.masthead .bg-circle-1 {
